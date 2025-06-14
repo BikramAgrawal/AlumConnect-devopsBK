@@ -12,8 +12,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "devops-rg"
-  location = "Central India"
+  name     = "devops-rg2"
+  location = "East US"
 }
 
 resource "azurerm_service_plan" "plan" {
