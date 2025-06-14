@@ -12,8 +12,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "devops-rg2"
-  location = "East US"
+  name     = "devops-rg3"
+  location = "Canada Central"
 }
 
 resource "azurerm_service_plan" "plan" {
