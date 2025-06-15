@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "devops-rg3"
+  name     = "devops-rg4"
   location = "Canada Central"
 }
 
